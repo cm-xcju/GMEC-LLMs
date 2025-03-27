@@ -24,7 +24,10 @@
 We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the visual caption.
 We revise the [image_demo.py](MinGPT-4/image_demo.py) to adapt our task
 
+## Dataset <a name="Dataset"></a>
 
+## Usage <a name="usage"></a>
+### step 1:
 
 ##
 The code will be open later. If you have any question, you can email xcju@stu.suda.edu.cn
