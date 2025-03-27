@@ -22,7 +22,9 @@
 
 ## Visual Caption <a name="VisualCaption"></a>
 We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the visual caption.
-We revise the [image_demo.py](MinGPT-4/image_demo.py) to adapt our task
+1. download the MinGPT-4 and its 13B checkpoint.
+2. Add the image_demo files into the folder. We revise the [image_demo.py](MinGPT-4/image_demo.py) to adapt our task
+3. Extract the Caption about the Image, and save to json file.
 
 ## Dataset <a name="Dataset"></a>
 
