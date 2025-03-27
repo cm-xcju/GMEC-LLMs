@@ -22,7 +22,7 @@
 
 ## Visual Caption <a name="VisualCaption"></a>
 We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the visual caption.
-We revise the [image_demo.py](image_demo.py) to adapt our task
+We revise the [image_demo.py](MinGPT-4/image_demo.py) to adapt our task
 
 
 
