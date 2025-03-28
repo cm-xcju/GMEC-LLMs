@@ -7,7 +7,8 @@
 - [Environment](#Environment)
 - [Visual Caption](#VisualCaption)
 - [Dataset](#Dataset)
-- [Usage](#usage)
+- [GMEC-train](#GMEC)
+- [LLMs Enhanced](#enhance)
 - [Evaluation](#evaluation)
 - [Citation](#citation)
 - [License](#license)
@@ -28,23 +29,28 @@ We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the vi
 
 ## Dataset <a name="Dataset"></a>
 
-## Usage <a name="usage"></a>
+## GMEC-train <a name="GMEC"></a>
 ### step 1: Extract image features.
 ```
 bash scripts/extract_img_features.sh  # extract image features
 python tools/dense_img_feats.py # dense the features into one file.
 ```
-### step 2: train the GMEC model 
-About val **ver**:  
-Emotion means the MER task of recognizing six emotion categories;  
-Emotion_neu means the MER task of recognizing two emotion categories;  
-cause means the MCE task of extracting causes;  
-preEmo_precause_pair(pe_pc) means the emotion and its cause are predicted simultaneously;
+### step 2: train the GMEC models
+About val **ver** in train.sh:  
+1. **Emotion** means the MER task of recognizing six emotion categories;  
+2. **Emotion_neu** means the MER task of recognizing two emotion categories;  
+3. **cause** means the MCE task of extracting causes;  
+4. **preEmo_precause_pair(pe_pc)** means the emotion and its cause are predicted simultaneously;  
 
+About the parameter Context_cut in config/train.yaml:
+1. **realtime** means there is no follow-up utterances after emotion
+2. **static** means there is compelete context.
+
+Training the GMEC model for different tasks  
 ```
-# 
 bash scripts/train.sh 
 ```
 
+## LLMs Enhanced <a name="enhance"></a>
 ##
 The code will be open later. If you have any question, you can email xcju@stu.suda.edu.cn
