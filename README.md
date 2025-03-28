@@ -29,7 +29,22 @@ We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the vi
 ## Dataset <a name="Dataset"></a>
 
 ## Usage <a name="usage"></a>
-### step 1:
+### step 1: Extract image features.
+```
+bash scripts/extract_img_features.sh  # extract image features
+python tools/dense_img_feats.py # dense the features into one file.
+```
+### step 2: train the GMEC model 
+About val **ver**:  
+Emotion means the MER task of recognizing six emotion categories;  
+Emotion_neu means the MER task of recognizing two emotion categories;  
+cause means the MCE task of extracting causes;  
+preEmo_precause_pair(pe_pc) means the emotion and its cause are predicted simultaneously;
+
+```
+# 
+bash scripts/train.sh 
+```
 
 ##
 The code will be open later. If you have any question, you can email xcju@stu.suda.edu.cn
