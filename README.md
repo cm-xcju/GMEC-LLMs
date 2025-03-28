@@ -48,7 +48,12 @@ About the parameter Context_cut in config/train.yaml:
 
 Training the GMEC model for different tasks  
 ```
-bash scripts/train.sh 
+bash scripts/train.sh
+```
+### step 3: Combining the emotion results and emotion-cause pairs to evaluate the task of MECPE-C
+```
+# select the function of **_evaluate_for_emo_pepc()** 
+python evaluation/mecpec_evaluate.py 
 ```
 
 ## LLMs Enhanced <a name="enhance"></a>
