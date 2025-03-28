@@ -50,12 +50,36 @@ Training the GMEC model for different tasks
 ```
 bash scripts/train.sh
 ```
-### step 3: Combining the emotion results and emotion-cause pairs to evaluate the task of MECPE-C
+### step 3: Evaluating the results
+Evaluate the results
+```
+bash evaluate_model.sh
+```
+
+Combining the emotion results and emotion-cause pairs to evaluate the task of MECPE-C
 ```
 # select the function of **_evaluate_for_emo_pepc()** 
 python evaluation/mecpec_evaluate.py 
 ```
 
 ## LLMs Enhanced <a name="enhance"></a>
-##
+### Generate the  heuristics 
+ ```
+bash heuristics_gen.sh
+```
+
+### prompting 
+```
+bash prompt.sh
+```
+
+
+### evaluating
+```
+# select the function of **evaluate_for_prompt_emo_pepc()** 
+python evaluation/mecpec_evaluate.py 
+```
+
+
+
 The code will be open later. If you have any question, you can email xcju@stu.suda.edu.cn
