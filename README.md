@@ -69,6 +69,7 @@ bash heuristics_gen.sh
 ```
 
 ### prompting 
+Add the openai key to the file.
 ```
 bash prompt.sh
 ```
