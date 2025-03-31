@@ -28,7 +28,7 @@ We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the vi
 3. Extract the Caption about the Image, and save to json file.
 
 ## Dataset <a name="Dataset"></a>
-
+The dataset can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/Em4vHgaxAZJNjXfgjb_NUIABNVAfAxkyln5-QywysnxIXw?e=8wlPAn)
 ## GMEC-train <a name="GMEC"></a>
 ### step 1: Extract image features.
 ```
@@ -68,14 +68,14 @@ python evaluation/mecpec_evaluate.py
 bash heuristics_gen.sh
 ```
 
-### prompting 
+### Prompting 
 Add the openai key to the file.
 ```
 bash prompt.sh
 ```
 
 
-### evaluating
+### Evaluating
 ```
 # select the function of **evaluate_for_prompt_emo_pepc()** 
 python evaluation/mecpec_evaluate.py 
