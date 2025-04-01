@@ -71,7 +71,8 @@ bash heuristics_gen.sh
 ```
 
 ### step 5:Prompting 
-Add the openai key to the file.
+Add the openai key to the file. The confidence_threshold is set to 0.7 and MODEL is set to gpt-3.5-turbo in prompt.yaml.  
+The Prompting used 5000 samples to infer the results. The mapping method of the score can be found in the "Experimental Settings" section of the paper.
 ```
 bash prompt.sh
 ```
