@@ -9,7 +9,6 @@
 - [Datas](#Datas)
 - [GMEC-train](#GMEC)
 - [LLMs Enhanced](#enhance)
-- [Evaluation](#evaluation)
 - [Citation](#citation)
 - [License](#license)
 
@@ -28,9 +27,10 @@ We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the vi
 3. Extract the Caption about the Image, and save to json file.
 
 ## Datas <a name="Datas"></a>
-The training dataset can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/Em4vHgaxAZJNjXfgjb_NUIABNVAfAxkyln5-QywysnxIXw?e=8wlPAn)  Password:20250331
-The checkpoints can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EiWqwxFSGRhKnbL6btk2vagB7TbprWQh7jNB78JKmidyCw?e=DqbVKw)
-The question_files can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EpzMxFSq5fRMs99VU3KHyl8Brnsfe7Xlw-lGvMWlG9N9cg?e=Axt4Y9)
+The training dataset can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/Em4vHgaxAZJNjXfgjb_NUIABNVAfAxkyln5-QywysnxIXw?e=8wlPAn)  Password:20250331  
+The checkpoints can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EiWqwxFSGRhKnbL6btk2vagB7TbprWQh7jNB78JKmidyCw?e=DqbVKw)  
+The question_files can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EpzMxFSq5fRMs99VU3KHyl8Brnsfe7Xlw-lGvMWlG9N9cg?e=Axt4Y9)  
+
 ## GMEC-train <a name="GMEC"></a>
 ### step 1: Extract image features.
 ```
@@ -65,24 +65,41 @@ python evaluation/mecpec_evaluate.py
 ```
 
 ## LLMs Enhanced <a name="enhance"></a>
-### Generate the  heuristics 
+### step 4: Generate the  heuristics 
  ```
 bash heuristics_gen.sh
 ```
 
-### Prompting 
+### step 5:Prompting 
 Add the openai key to the file.
 ```
 bash prompt.sh
 ```
 
 
-### Evaluating
+### step 7:Evaluating
 ```
 # select the function of **evaluate_for_prompt_emo_pepc()** 
 python evaluation/mecpec_evaluate.py 
 ```
 
+
+## Citation <a name="citation"></a>
+If this code is used in your research, please cite our paper:
+```
+@ARTICLE{10891643,
+  author={Ju, Xincheng and Zhang, Dong and Li, Junhui and Li, Shoushan and Zhou, Guodong},
+  journal={IEEE Transactions on Multimedia}, 
+  title={Enhanced Generative Framework with LLMs for Multimodal Emotion-Cause Pair Extraction in Conversations}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-12},
+  keywords={Feature extraction;Emotion recognition;Visualization;Data mining;Pipelines;Oral communication;Knowledge based systems;Training;Linguistics;Large language models;Multimodal;emotion-cause pair extraction;conversation;large language models},
+  doi={10.1109/TMM.2025.3543080}}
+
+
+```
 
 
 <!-- The code will be open later. If you have any question, you can email xcju@stu.suda.edu.cn -->
