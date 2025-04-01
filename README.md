@@ -97,7 +97,9 @@ If this code is used in your research, please cite our paper:
   pages={1-12},
   keywords={Feature extraction;Emotion recognition;Visualization;Data mining;Pipelines;Oral communication;Knowledge based systems;Training;Linguistics;Large language models;Multimodal;emotion-cause pair extraction;conversation;large language models},
   doi={10.1109/TMM.2025.3543080}}
-
+```
+## License <a name="license"></a>
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ```
 
