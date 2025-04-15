@@ -27,6 +27,8 @@ We use the [MinGPT-4](https://github.com/ai-liam/NLP-MiniGPT-4) to extact the vi
 3. Extract the Caption about the Image, and save to json file.
 
 ## Datas <a name="Datas"></a>
+The dataset can be download in [baiduyun](https://pan.baidu.com/s/1HjEeddXWw0OG17WE9vH1qA) code:fxf7 
+If you need the **ckpts **files or any other questions about dataset, contact me.
 The training dataset can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/Em4vHgaxAZJNjXfgjb_NUIABNVAfAxkyln5-QywysnxIXw?e=8wlPAn)  Password:20250331  
 The checkpoints can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EiWqwxFSGRhKnbL6btk2vagB7TbprWQh7jNB78JKmidyCw?e=DqbVKw)  
 The question_files can be download in [onedrive](https://stusudaeducn-my.sharepoint.com/:f:/g/personal/xcju_stu_suda_edu_cn/EpzMxFSq5fRMs99VU3KHyl8Brnsfe7Xlw-lGvMWlG9N9cg?e=Axt4Y9)  
